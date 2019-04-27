@@ -1,0 +1,27 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex-content-container {
+  flex: 1;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  backgroud-color: rgba(36, 32, 33, 0.9);
+  font-family: "font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;";
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+
+#footer a {
+  font-weight: 100;
+}
