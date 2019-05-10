@@ -69,6 +69,7 @@ source 'https://rails-assets.org' do
 end  
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'simple_form'
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
