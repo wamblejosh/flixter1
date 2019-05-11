@@ -24,7 +24,7 @@
 	<br />
 
 	
-		<video id="my-video" class="video-js vjs-big-play-centered vjs-fluid" width='300' height='600' controls preload="auto" poster="<%= image_path('hero.jpg') %>" data-setup="{}">
+		<video id="my-video" class="video-js vjs-big-play-centered vjs-fluid" width='auto' height='auto' controls preload="auto" poster="<%= image_path('hero.jpg') %>" data-setup="{}">
 			<source src="<%= current_lesson.video.to_s %>" type='video/mp4'>
     		<noscript>
     			<p class="vjs-no-js">
